@@ -10,7 +10,7 @@ def writing_txt(phonebook):
     with open('Phonebook.txt', 'a', encoding='utf-8') as data:
         for v in phonebook.items():
             data.write(
-                f'№ {last_key()}\nФамилия: {v[0]}\nИмя: {v[1]}\nНомер телефона: {v[2]}\nОписание: {v[3]}\n\n')
+                f'\n№ {last_key()}\nФамилия: {v[0]}\nИмя: {v[1]}\nНомер телефона: {v[2]}\nОписание: {v[3]}\n')
 
 
 def last_key():
